@@ -23,7 +23,7 @@ main{
 .container {
     background-color: hsl(0, 0%, 100%);
     max-width: 1440px;
-    min-width: 300px;
+    min-width: 375px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
@@ -86,3 +86,4 @@ h1:hover{
 .author img{
     width: 30px;
 }
+
