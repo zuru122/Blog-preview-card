@@ -11,7 +11,7 @@ body {
     font-family: Figtree;
 }
 
-.wrapper {
+main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
 
 img.img-article{
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .attribution{
@@ -74,7 +74,7 @@ h1:hover{
     
 }
 
-.footer{
+.author{
     
     display: flex;
     justify-items: center;
@@ -83,6 +83,6 @@ h1:hover{
     
 }
 
-.footer img{
+.author img{
     width: 30px;
 }
