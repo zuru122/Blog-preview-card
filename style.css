@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 100px;
+    padding: 10px;
     margin: 0 auto;
     background-color: hsl(47, 88%, 63%);
     font-family: Figtree;
@@ -16,23 +16,23 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     /* Ensures the wrapper takes the full viewport height */
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    max-width: 1440px;
-    min-width: 375px;
+    max-width: 20.4375rem;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
+    box-shadow: 0.5rem 0.5rem 0 #000000;
     overflow: hidden;
 }
 
 img.img-article{
     border-radius: 10px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .attribution{
